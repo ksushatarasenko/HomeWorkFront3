@@ -1,0 +1,39 @@
+*{ margin: 8px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    background: #2696e8;
+    border: 1px solid blue;
+    width: 700px;
+    margin: 0 auto;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+          
+}
+li{
+    list-style-type: none;
+    border: 1px solid blue;
+    text-align: center;
+    margin: 0;
+    /* align-items: center; */
+}
+
+a{
+    padding: 10px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    background-color: aliceblue;
+    color: rgb(93, 108, 216);
+}
